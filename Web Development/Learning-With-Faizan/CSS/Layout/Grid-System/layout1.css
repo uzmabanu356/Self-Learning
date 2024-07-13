@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.header{
+    border: 1px solid greenyellow;
+    background-color: yellow;
+    height: 10vh;
+    margin-bottom: 10px;
+}
+.footer{
+    border: 1px solid greenyellow;
+    background-color: yellow;
+    height: 10vh;
+    margin-top: 10px;
+    
+}
+.container{
+    border: 2px solid greenyellow;
+    height: 76.50vh;
+    background-color: yellow;
+}
