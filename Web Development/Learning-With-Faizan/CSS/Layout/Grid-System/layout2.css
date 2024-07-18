@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-color: aliceblue;
+    background-color: lightcoral;
 }
 .header{
     border: 2px solid black;
@@ -21,50 +21,35 @@ body{
     height: 10vh;
 }
 .container{
-    border: 2px solid black;
-    margin:5px;
-    padding: 10px;
-    height: 65vh;
+    /* border: 2px solid black; */
+     height: 65vh;
     display: grid;
-    grid-template-columns: (3,1fr);
-    grid-template-rows:150px 150px;
-    grid-gap:10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: "section section aside"
+                         "article article aside"
 }
 .box1{
     border: 2px solid black;
     margin: 5px;
     padding:10px ;
     text-align: center;
-    height: 30vh;
-    grid-row-start:1;
-    grid-row-end:2;
-    grid-column-start: 1;
-    grid-column-end: 3;
-
+    /* height: 30vh; */
+    grid-area:section;
 }
 .box2{
     border: 2px solid black;
     margin: 5px;
     padding:20px ;
     text-align: center;
-    height: 30vh;  
-    grid-row-start:2;
-    grid-row-end:2;
-    grid-column-start: 1;
-    grid-column-end: 3; 
-}
+    grid-area:article ;
+    }
 .box3{
     border: 2px solid black;
     margin: 5px;
     padding:10px ;
     text-align: center;
-    height: 30vh;
-    grid-row-start:1;
-    grid-row-end:3;
-    grid-column-start: 3;
-    grid-column-end: 4;
-
-
+    grid-area: aside;
 }
 .footer{
     border: 2px solid black;
