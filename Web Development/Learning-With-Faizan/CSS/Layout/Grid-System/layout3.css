@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+}
+.header{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 6vh;
+    padding: 5px;
+}
+.nav{
+    border: 1px solid black;
+    background-color:black;
+    height: 4vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.box1{
+    border-right: 3px solid white;
+}
+.box2{
+    border-right: 3px solid white;
+}
+.box3{
+    border-right: 3px solid white;
+}
+.box4{
+    border-right: 3px solid white;
+}
+.box5{
+    border-right: 3px solid white;
+}
+.box6{
+    border-right: 3px solid white;
+}
+.box7{
+    border-right: 3px solid white;
+}
+.box8{
+    border-right: 3px solid white;
+}
+.box9{
+    }
+.footer{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 6vh;
+    padding: 5px;
+
+}
