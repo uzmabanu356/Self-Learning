@@ -12,6 +12,7 @@ h1{
 .container{
     border: 2px solid black;
     display: flex;
+    justify-content: space-around;
 }
 .box1{
     margin: 5px;
@@ -32,4 +33,11 @@ h1{
 .box5{
     margin: 5px;
     border:2px solid black;
+}
+.aside{
+    border: 2px solid black;
+    margin: 5px;
+    height: 50vh;
+    width: 50vw;
+    background-color: pink;
 }
