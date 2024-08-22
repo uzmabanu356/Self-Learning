@@ -10,34 +10,66 @@ h1{
     text-align: center;
 }
 .container{
+    background-color: maroon;
     border: 2px solid black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-.box1{
+.bg{
+    background-color:lightcoral;
     margin: 5px;
     border:2px solid black;
+}
+.box1{
+     /* background-color: brown; 
+    margin: 5px;
+    border:2px solid black; */
 }
 .box2{
+    /* background-color: brown; 
     margin: 5px;
-    border:2px solid black;
+    border:2px solid black;*/
 }
 .box3{
+    /* background-color: brown; 
     margin: 5px;
-    border:2px solid black;
+    border:2px solid black;*/
 }
 .box4{
+    /* background-color: brown; 
     margin: 5px;
-    border:2px solid black;
+    border:2px solid black;*/
 }
 .box5{
+    /* background-color: brown;
     margin: 5px;
-    border:2px solid black;
+    border:2px solid black;*/
+}
+aside{
+    border: 2px solid black;
+    width: 50%;
+    margin: 5px;
+    height: 80vh;
+    background-color: pink;
+    background-image: url(../../../MEDIA/fantasy.jpg);
+    background-repeat: no-repeat;
+   
 }
 .aside{
-    border: 2px solid black;
-    margin: 5px;
-    height: 50vh;
-    width: 50vw;
-    background-color: pink;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.B{
+    background-color:pink;
+   border: 2px solid black; 
+   height: 90px;
+   width: 90px;
+   margin: 20px;
+   text-align: center;
+
+}
+.aside div:nth-child(2), p:nth-child(6), p:nth-child(5), div:nth-child(12){   
+    background-color: deeppink;
 }
