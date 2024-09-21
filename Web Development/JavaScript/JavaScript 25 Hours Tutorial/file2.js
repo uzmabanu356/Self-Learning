@@ -32,21 +32,14 @@
 
  3.)Value reassignment:
 
-•var and let can be reassigned.
-•const cannot be reassigned after it's declared (but objects/arrays can have their properties modified).
-Hoisting:
+  •var and let can be reassigned.
+  •const cannot be reassigned after it's declared (but objects/arrays can have their properties modified).
 
-var is hoisted and initialized with undefined.
-let and const are hoisted but not initialized, so accessing them before declaration causes an error.
+4.)Hoisting:
 
-
-
-
-
-
-
+  •var is hoisted and initialized with undefined.
+ •let and const are hoisted but not initialized, so accessing them before declaration causes an error.
             
-
 
 */
 //-----Practical of var -------
@@ -86,8 +79,8 @@ let and const are hoisted but not initialized, so accessing them before declarat
 
 //----const practicle------
 
-const firstName="uzma";
-console.log(firstName);
+// const firstName="uzma";
+// console.log(firstName);
 
 // rename of variable
 
@@ -96,5 +89,5 @@ console.log(firstname);
 
 //re-assign of vriable value
 
-// firstName="uzzi"; // ye ek error he
-// console.log(firstName);
+firstName="uzzi"; // ye ek error he
+console.log(firstName);
