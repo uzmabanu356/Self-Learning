@@ -21,8 +21,8 @@ let lng = "Hello, world!"; //example of string-length
 console.log(lng.length);  // Output: 13
 
 var lastStr = "Hello, JavaScript"; //last string pta krne ke liye
-console.log(lastStr[lastStr.length-1]);  // Output:
+console.log(lastStr[lastStr.length-1]);  // Output: t
 
 var lastStr = "Hello, JavaScript"; //last string pta krne ke liye
-console.log(lastStr[lastStr.length-2]);  // Output:
+console.log(lastStr[lastStr.length-2]);  // Output: p
  
