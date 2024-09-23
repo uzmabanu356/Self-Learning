@@ -16,7 +16,31 @@ String Method:-   string methods aise built-in functions hote hain jo hume strin
           Yeh string ke ek hisse ko start se lekar end tak (end included nahi hota) print karta hai.
 
 5)charAt():-
-           Yeh string me di gayi position (index) par jo character hai, usko return karta hai. Index 0 se start hota hai.         
+           Yeh string me di gayi position (index) par jo character hai, usko return karta hai. Index 0 se start hota hai.    
+           
+6)includes(substring):-
+            Yeh check karta hai ki string ke andar jo substring diya gaya hai, wo hai ya nahi. Agar hai to true, nahi hai to false return karta hai.
+
+7)indexOf(substring):-
+                Yeh string ke andar substring ki pehle number ki position (index) batata hai. Agar substring nahi mila to -1 return karta hai.
+
+8)lastIndexOf(substring):-
+                Yeh string ke andar substring ki last number ki position batata hai. Agar substring nahi mila to -1 return karta hai.
+
+9)replace(oldValue, newValue):-
+                        String me jo oldValue diya gaya hai, usko newValue se replace kar deta hai 
+
+10)split(","):-
+                String ko separator ke basis par todkar ek array me convert karta hai.
+
+11)startsWith(substring):-
+                    Check karta hai ki string ka start di gayi substring se hota hai ya nahi. true ya false return karta hai.
+
+12)endsWith(substring):-
+                    Check karta hai ki string ka end di gayi substring se hota hai ya nahi. true ya false return karta hai.       
+                    
+13)repeat(count):-
+            String ko count number of times repeat karta hai.                    
                                         
 */
  
@@ -42,7 +66,6 @@ String Method:-   string methods aise built-in functions hote hain jo hume strin
 // strUpCase=strUpCase.toUpperCase(); // use toUpperCase() method
 
 // console.log(strUpCase); // print  upperCase string 
-
 
 
 
@@ -77,3 +100,80 @@ String Method:-   string methods aise built-in functions hote hain jo hume strin
 // strCAt=(strCAt.charAt(4)); //use charAt() method
 
 // console.log(strCAt); // output:-a
+
+
+
+
+// let text = "Hello World"; //example of indexOf() method
+
+// console.log(text);// print normal string
+
+// text=(text.indexOf("World")); //use method
+
+// console.log(text); // Output:- true
+
+
+
+
+// let text = "Hello World Java"; //example of lastIndexOf() method
+
+// console.log(text);// print normal string
+
+// text=(text.lastIndexOf("Java")); //use method
+
+// console.log(text); // Output:- 12
+
+
+
+
+// let text = "Hello World"; //example of replace()
+
+// text=(text.replace("Hello","good")); //use method change first subString
+
+// console.log(text); // Output:- good World
+
+// text=(text.replace("World","JavaScript")); //use method change last subString
+
+// console.log(text); // Output:- Hello JavaScript
+
+
+
+
+// let text = "apple,banana,orange,mango"; // example of split()
+
+// text=(text.split(",")); //use method
+
+// console.log(text);//output:- (4) ['apple', 'banana', 'orange', 'mango']
+
+
+
+// let text = "Hello World"; //example of startsWith()
+
+// text=(text.startsWith("Hello")); //use method 
+
+// console.log(text); // Output:- true
+
+
+
+//  let text = "Hello World"; //example of endsWith()
+
+// text=(text.endsWith("World")); //use method 
+
+// console.log(text); // Output:- true
+
+
+
+
+// let text = "HelloWorld  "; //example of repeat()
+
+// text=(text.repeat("5")); //use method 
+
+// console.log(text); // Output:- HelloWorld  HelloWorld  HelloWorld  HelloWorld  HelloWorld  
+
+
+
+
+
+
+
+
