@@ -34,3 +34,9 @@ Convert string to number:-
 
 
 
+let age=18;
+age=String(age);
+console.log(typeof age);
+
+
+
