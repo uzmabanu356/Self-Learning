@@ -34,9 +34,9 @@ Convert string to number:-
 
 
 
-let age=18;
-age=String(age);
-console.log(typeof age);
+// let age=18; // is trha se bhi hum type change kr skte he.
+// age=String(age);
+// console.log(typeof age);
 
 
 
