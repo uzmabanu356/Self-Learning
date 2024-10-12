@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: gainsboro;
+        }
+        textarea{
+            background-color: gainsboro ;
+        }
+        input[type="submit"]
+        {   
+            border: 1px solid black;
+            margin-left: 5%;
+             background-color: lightgreen; 
+             align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        User Feedback Survey
+    </h1>
+    <form action="">
+         <label for="text-area">Comment: </label> <br> 
+            <textarea name="comment" id="comment" placeholder="Add your comment"></textarea>
+           <br> <br>
+
+        <label for="radio">How satisfied are you: </label>
+             <br> <br>
+
+           <input type="radio" name="radio" id="radio"> 
+           <label for=" Very Satisfied"> Very Satisfied</label> <br>
+
+           <input type="radio" name="radio" id="radio">
+           <label for="Satisfied">Satisfied</label> <br>
+
+           <input type="radio" name="radio" id="radio">
+           <label for=" Neutral"> Neutral</label> <br>
+
+           <input type="radio" name="radio" id="radio">
+           <label for="Dissatisfied ">Dissatisfied</label> <br>
+
+           <input type="radio" name="radio" id="radio">
+           <label for="Very Dissatisfied ">Very Dissatisfied</label>
+           <br> <br>
+            
+           <p>Additional Information:</p>
+           <label for="recommend ">Would you recommend us to others?</label>
+               <input type="checkbox" name="html" id="html"> <br>
+            
+          <label for="Do you want to receive updates?"">Do you want to receive updates?"</label>
+             <input type="checkbox" name="html" id="html"> <br>
+            <br> <br>
+
+         <input type="submit" name="submit" id="submit">
+    </form>
+</body>
+</html>

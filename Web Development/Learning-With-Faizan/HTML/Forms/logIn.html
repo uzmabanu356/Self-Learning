@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       body{
+        background-color: aqua;
+            margin: 15%;
+           display: flex;
+           justify-content: center;
+           align-items: center;           
+       }
+       .container{
+        background-color:rgb(183, 237, 237); 
+         border: 2px solid black;
+           margin: 0;
+           padding: 5px;
+           height: 300px;
+           width:30% ;
+           
+       }
+       .container input[type="text"]
+       {
+             border: 1px solid black;
+             background-color:rgb(183, 237, 237) ;
+             margin: 10px;
+             width: 90%;
+             height:25px;
+       }
+
+       .container input[type="password"]
+       {
+             border: 1px solid black;
+             background-color: rgb(183, 237, 237);
+             margin: 10px;
+             width: 90%;
+             height:25px;
+       }
+
+       .container input[type="submit"]
+       {
+          background-color: rgb(13, 168, 13);
+          margin-left:15px;
+          height: 30px;
+          width: 250px;            
+       }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <form action="Survey-Form.html">
+             <h2 style="text-align: center;">Login</h2>
+             <br>
+
+             <label for="username">Username: </label> <br> 
+                <input type="text" name="username" id="username" placeholder="Enter your username">
+                <br>
+                <br>
+            <label for="password">Passwor: </label> <br>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+                <br><br>
+
+             <input type="Submit" name="Login" id="login" value="Login">
+        
+        </form>
+     </div>
+</body>
+</html>
