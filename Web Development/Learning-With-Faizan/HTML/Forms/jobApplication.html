@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+           
+           *{
+              background-color:aquamarine;
+              margin:5px;
+              font-style: oblique;
+           }
+           
+        input[type="submit"]{
+            background-color: rgb(5, 150, 102);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+         Job Application Form
+    </h1>
+     <br> 
+        <form action="logIn.html">
+        <label for="name">Name: </label>
+          <input type="text" name="name" id="name" placeholder="Enter Name">
+          <br> <br>   
+        
+        <label for="Email">Email: </label>
+         <input type="email" name="email" id="email" placeholder="Enter Email">
+         <br> <br>
+
+        <label for="phone">Phone Number: </label>
+         <input type="tel" name="phone" id="phone"  placeholder="Enter number" pattern="[0-9]{10}" required>
+         <br> <br> 
+
+         <label for="DOB">Date of Birth: </label>
+          <input type="date" name="DOB" id="DOB">
+         <br> <br>
+
+         <label for="CV">Upload your CV: </label>
+         <input type="file" name="CV" id="CV">
+         <br> <br>
+
+         <label for=" position">Position you are applying for: </label>
+         <select name="position" id="position">
+            <option value="" selected > -Select Position- </option>
+             <option value="">Developer</option>
+             <option value="">Designer</option>
+             <option value="">Manager</option>
+         </select>
+        <br> <br>
+
+        <input type="submit" name="submilt" id="submilt">
+    </form>
+</body>
+</html>
