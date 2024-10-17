@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pizza Order</title>
+    <style>
+         *{
+             background-color: red;
+            
+         }
+         body{
+             font-style: oblique;
+         }
+        
+         .container input[type="text"]
+           {
+             border: 1px solid black;
+           }
+ 
+            select{
+                border: 1px solid black;
+            }
+ 
+        input[type="submit"]
+         {
+              border: 1px solid black;
+              height: 25px;
+              width: 10%;
+              background-color: green;
+         }
+    </style>
+</head>
+<body>
+    <h1>
+          Pizza Order Form
+    </h1>
+    <br>
+     <div class="container">
+    <form action="">
+
+      <label for="name">Customer's Name: </label>
+      <input type="text" name="name" id="name">
+       <br> <br>
+
+    <label for="address">Delivery address: </label>
+    <input type="text" name="address" id="address">
+     <br> <br>
+
+    <label for="size">Pizza size: </label>
+     <select name="size" id="size">
+         <optgroup label="select size" >select size</optgroup>
+         <option value="small">Small</option>
+         <option value="medium">Medium</option>
+         <option value="large">Large</option>
+     </select>
+     <br> <br>
+
+     <label for="toppings">Selecting toppings: </label>
+       <label for="name">Cheese</label>
+       <input type="checkbox" name="toppings" id="toppings">
+      
+       <label for="name">Pepperoni</label>
+        <input type="checkbox" name="toppings" id="toppings">
+
+       <label for="name">Olives</label>
+       <input type="checkbox" name="toppings" id="toppings">
+
+       <label for="name">Mushrooms</label>
+       <input type="checkbox" name="toppings" id="toppings">
+       <br> <br>
+
+       <label for="crust">Crust type: </label>
+         <input type="radio" name="crust" id="crust">
+         <label for="">Thin Crust</label>
+        
+         <input type="radio" name="crust" id="crust">
+         <label for="">Thick  Crust</label>
+
+         <input type="radio" name="crust" id="crust">
+         <label for="">Cheese Burst</label>
+         <br> <br>
+
+         <input type="submit" name="submit" id="submit">
+         
+    </form>
+</div>
+
+</body>
+</html>
