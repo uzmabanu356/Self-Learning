@@ -10,10 +10,28 @@
         background-color: aquamarine ;
      }
 
+     input[type="text"]
+     {
+        border: 1px solid black;
+     }
+     input[type="email"]
+     {
+        border: 1px solid black;
+     }
+     input[type="tel"]
+     {
+        border: 1px solid black;
+     }
+    input[type="submit"]
+    {
+        background-color: rgb(145, 145, 255);
+    }
+
     </style>
 </head>
 <body>
     <h1>Event Registration Form</h1>
+    <br>
    <form action="">
     <label for="username">Username: </label>  
     <input type="text" name="username" id="username" placeholder="Enter your username">
@@ -22,14 +40,34 @@
     
     <label for="email">Email: </label>  
     <input type="email" name="email" id="email" placeholder="Enter your email">
-    <br>
-    <br>
+    <br> <br>
 
     <label for="phone">Phone number: </label>  
     <input type="tel" name="phone" id="phone" placeholder="Enter your Phone no.">
-    <br>
-    <br>
+    <br>  <br>
 
+    <label for="">Select Session: </label>
+     <select name="session" id="session">
+         <option value="morning">Morning</option>
+         <option value="afternoon">Afternoon</option>
+         <option value="evening">Evening</option>
+     </select>
+     <br> <br>
+
+     <label for="">Select your Interests: </label>
+
+      <label for="">Workshops</label>
+     <input type="checkbox" name="Workshops" id="Workshops">
+
+     <label for="">Networking</label>
+     <input type="checkbox" name="Networking" id="Networking">
+  
+     <label for="">Presentations</label>
+     <input type="checkbox" name="Presentations" id="Presentations">
+     <br> <br>
+
+     <input type="submit" name="submit" id="submit">
+  
    </form>
 </body>
 </html>
