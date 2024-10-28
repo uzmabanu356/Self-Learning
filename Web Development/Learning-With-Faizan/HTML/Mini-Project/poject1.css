@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+
+header{
+    border: 1px solid darkcyan;
+    background-color:palevioletred;
+    height: 70px;
+    color:white ;
+    text-align: center;
+    font-size: large;
+}
+.container{
+    border: 1px solid darkcyan;
+     margin-top: 2px;
+    background-color:rgb(5, 188, 145);
+    height: 230px; 
+}
+.container img{
+   height: 80px;
+   width: 10%; 
+   margin: auto;
+   display: block;
+   
+}
+
+.skil{
+    border: 1px solid darkcyan;
+    margin-top:2px;
+    background-color:rgb(5, 188, 145);
+    height: 150px;
+
+}
+.project{
+    border: 1px solid darkcyan;
+    margin-top:2px;
+    background-color:rgb(5, 188, 145);
+    height: 150px;
+
+}
+footer{
+    border: 1px solid darkcyan;
+    background-color: palevioletred;;
+    height: 70px;
+    color:white ;
+    text-align: center;
+    font-size: large;
+}
