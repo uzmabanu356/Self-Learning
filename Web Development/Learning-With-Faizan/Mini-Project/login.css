@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+  background: url(../MEDIA/black.jpg);
+}
+.container{
+    border: 2px solid red;
+    color: white;
+    height: 100vh;  
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 2px solid green;
+    color: white;
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.box form{
+    border: 2px solid white;
+    width: 100%;
+    
+}
+
+.box form label{
+    /* border: 2px solid white; */
+    /* width: 50%; */
+    display: block;
+    padding: 10px;
+}
+.box form input{
+    /* border: 2px solid white; */
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
