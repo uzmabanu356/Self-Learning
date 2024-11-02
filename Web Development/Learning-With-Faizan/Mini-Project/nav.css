@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#De638a;
+}
+section{
+    border: 2px solid snow;
+}
+header{
+    border: 2px solid sandybrown;
+    background-color: #4A3267;
+    color: white;
+}
+ul{
+    border: 3px solid seagreen; 
+    display: flex;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: #4A3267;
+    margin-left: 30px;
+}
+nav ul li:hover > ul{
+    display: block;
+    
+}
+nav ul li a:hover{
+   background-color: #De638a;
+   border: 2px solid rgb(245, 153, 168);
+}
+li{
+    
+    display: block;
+    padding: 20px;
+}
+a{
+
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
