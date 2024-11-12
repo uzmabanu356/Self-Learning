@@ -12,7 +12,7 @@ section{
 }
 header{
     border: 2px solid sandybrown;
-    background-color: #4A3267;
+    background-color: #432e5d;
     color: white;
 }
 ul{
@@ -42,5 +42,5 @@ a{
 
     color: white;
     text-decoration: none;
-    padding: 10px;
+    
 }
