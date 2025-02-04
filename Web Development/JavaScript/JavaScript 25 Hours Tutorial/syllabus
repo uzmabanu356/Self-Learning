@@ -1,0 +1,62 @@
+
+<!--===========================================SYLLABUS=======================================-->
+
+Basic Topics in JavaScript DOM:
+1.Introduction to DOM:
+
+What is the DOM?
+How JavaScript interacts with the DOM.
+
+2.Selecting Elements:
+
+getElementById()
+getElementsByClassName()
+getElementsByTagName()
+querySelector() and querySelectorAll()
+
+3.Manipulating Elements:
+
+Changing text with innerText and textContent.
+Modifying HTML content with innerHTML.
+Updating attributes (setAttribute(), getAttribute(), removeAttribute()).
+Changing styles dynamically with .style.
+
+4.Creating and Removing Elements:
+
+createElement()
+appendChild() and append()
+removeChild()
+replaceChild()
+
+5.Event Handling:
+
+Adding event listeners (addEventListener()).
+Common events: click, mouseover, mouseout, keyup, keydown, change, etc.
+Event propagation: bubbling and capturing.
+
+6.DOM Traversal:
+
+Navigating parent, child, and sibling elements (parentNode, children, nextSibling, previousSibling).
+
+7.Forms and Input Handling:
+
+Accessing form elements (value, checked, selected, etc.).
+Form validation with JavaScript.
+
+8.Class and Style Manipulation:
+
+classList.add(), classList.remove(), classList.toggle().
+Dynamically adding/removing classes.
+
+9.Working with Attributes:
+
+Handling custom attributes (data-* attributes).
+Using dataset for easy attribute manipulation.
+
+10.Practicing DOM Scripting:
+
+Building small projects like:
+A counter app.
+A to-do list.
+Simple form validation.
+Show/hide content.
