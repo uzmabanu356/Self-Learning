@@ -20,7 +20,8 @@ nav{
 nav .logo h1{
        font-size: 40px;
        margin: 20px; 
-       color: rgba(255, 255, 255, 0.886);      
+       color: rgba(255, 255, 255, 0.886);  
+       cursor: pointer;   
 }
 
 nav ul{
