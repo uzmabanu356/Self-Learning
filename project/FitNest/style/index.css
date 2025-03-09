@@ -52,6 +52,7 @@ ul li a:hover {
     font-size: 25px;
 }
 
+
 .containt {
     margin-top: 10%;
 }
@@ -78,10 +79,16 @@ ul li a:hover {
 }
 
 .section2 {
-    background-color: rgba(0, 0, 0,0.9);
+    /* background-color: rgba(0, 0, 0,0.9); */
+    background: linear-gradient(rgba(48, 0, 0, 0.9),rgba(48, 0, 0, 0.9), rgba(49, 0, 0, 0.9)),
+        url('../media/section11.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+
+
 }
 
-.container {
+.container1 {
     border: 1px solid black;
     color: white;
     height: auto;
@@ -89,7 +96,7 @@ ul li a:hover {
     display: inline;
 }
 
-.container h1 {
+.container1 h1 {
     font-size: 40px;
     color: white;
     text-align: center;
@@ -115,39 +122,56 @@ ul li a:hover {
 .box1 {
     text-align: center;
 }
-.box1 h2{
+
+.box1 h2 {
     margin-top: 60px;
 }
-.box1 p{
+
+.box1 p {
     font-size: 20px;
 }
 
 .box2 {
     text-align: center;
 }
-.box2 h2{
+
+.box2 h2 {
     margin-top: 60px;
 }
-.box2 p{
+
+.box2 p {
     font-size: 20px;
 }
 
 .box3 {
     text-align: center;
 }
-.box3 h2{
+
+.box3 h2 {
     margin-top: 60px;
 }
-.box3 p{
+
+.box3 p {
     font-size: 20px;
 }
 
 .box4 {
     text-align: center;
 }
+
 .box4 h2 {
     margin-top: 60px;
 }
-.box4 p{
+
+.box4 p {
     font-size: 20px;
+}
+
+/* section 3 */
+
+.section3 {
+    background: linear-gradient(rgba(23, 0, 76, 0.363),rgba(38, 0, 60, 0.214),rgba(38, 0, 60, 0.214)),
+        url('../media/section11.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
 }
