@@ -170,8 +170,10 @@ ul li a:hover {
 /* section 3 */
 
 .section3 {
-    background: linear-gradient(rgba(23, 0, 76, 0.363),rgba(38, 0, 60, 0.214),rgba(38, 0, 60, 0.214)),
+    background: linear-gradient(rgba(6, 6, 66,0.9), rgba(6, 6, 66,0.9)),
         url('../media/section11.jpg') no-repeat center center/cover;
     width: 100%;
     height: 100vh;
+    text-align: center;
+    color: white;
 }
