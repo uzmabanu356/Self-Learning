@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(238, 238, 246);
 }
+
 .headerContainer {
     /* border: 2px solid red; */
     height: auto;
@@ -63,8 +65,9 @@ img {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    
+
 }
+
 abbr {
     text-decoration: none;
 }
@@ -114,10 +117,10 @@ a {
     border: 2px solid white;
     background-color: honeydew;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px white;
+    box-shadow: 1px 1px 1px 1px white;
     margin: 2px 2px;
     padding: 10px;
-    margin-top: 0.05cm;
+    margin-top: 0.29cm;
     display: none;
 }
 
@@ -158,6 +161,7 @@ a {
     padding: 10px;
     font-weight: normal;
 }
+
 .cart i {
     margin-top: 10px;
 }
@@ -182,6 +186,7 @@ button i {
     font-size: 15px;
     padding: 10px 10px;
 
+
 }
 
 button:hover {
@@ -190,5 +195,58 @@ button:hover {
     border: 1px solid rgb(236, 235, 235);
     background-color: rgb(245, 245, 245);
     border-radius: 5px;
-    transition: all 0.01s;
+    transition: all 0.05s;
+}
+
+.dot {
+    /* border: 2px solid slategray; */
+    position: relative;
+
+}
+
+.links {
+    position: absolute;
+    margin-top: 2px;
+    display: none;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    background-color: white;
+    left: -450%;
+    right: 0%;
+    width: 200px;
+    overflow: hidden;
+}
+.imp-link li{
+    display:inline-block;
+    padding: 10px 10px;
+}
+.links li {
+    list-style: none;
+}
+
+
+.dot:hover .links {
+    display: block;
+    transition: all 0.05s;
+}
+ 
+.category{
+    /* border: 2px solid palegreen; */
+    background-color: white;
+    margin: 7px 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.item {
+    border: 1px solid red;
+    margin: 10px 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.item img{
+border: 1px solid saddlebrown;
+height: 64px;
+display: block;
 }
