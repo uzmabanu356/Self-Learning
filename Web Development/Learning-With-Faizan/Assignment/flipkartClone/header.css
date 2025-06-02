@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-width: none;
 }
 
 body {
@@ -216,10 +217,12 @@ button:hover {
     width: 200px;
     overflow: hidden;
 }
-.imp-link li{
-    display:inline-block;
+
+.imp-link li {
+    display: inline-block;
     padding: 10px 10px;
 }
+
 .links li {
     list-style: none;
 }
@@ -229,24 +232,4 @@ button:hover {
     display: block;
     transition: all 0.05s;
 }
- 
-.category{
-    /* border: 2px solid palegreen; */
-    background-color: white;
-    margin: 7px 20px;
-    display: flex;
-    justify-content: space-around;
 
-}
-.item {
-    border: 1px solid red;
-    margin: 10px 10px;
-    padding: 10px;
-    text-align: center;
-    
-}
-.item img{
-border: 1px solid saddlebrown;
-height: 64px;
-display: block;
-}

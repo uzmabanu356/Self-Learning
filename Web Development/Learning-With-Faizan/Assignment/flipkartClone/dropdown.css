@@ -1,0 +1,199 @@
+.category {
+    /* border: 2px solid palegreen; */
+    background-color: white;
+    margin: 7px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.item img {
+    height: 64px;
+    display: block;
+}
+
+.category>.item:nth-of-type(5) img,
+.category>.item:nth-of-type(7) img,
+.category>.item:nth-of-type(8) img,
+.category>.item:nth-of-type(9) img {
+    margin-left: 20px;
+}
+
+
+.fa-dropdown {
+    /* border: 1px solid red; */
+    width: 21vw;
+    display: block;
+    position: absolute;
+    top: 28.50%;
+    left: 15%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -2px 0 10px gray;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.item:hover .fa-dropdown {
+    visibility: visible;
+    transition: all 0.05s;
+}
+
+.item:hover .fa-chevron-down {
+    transform: rotate(180deg);
+    transition: 0.2s;
+}
+
+.fa-dropdown ul li {
+    list-style: none;
+    text-align: start;
+    padding: 14px 15px;
+}
+
+.fa-dropdown ul li:hover {
+    background-color: rgb(246, 244, 244);
+}
+
+.wear {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+li:hover .wear span {
+    font-weight: bolder;
+}
+
+.wear i {
+    font-size: 10px;
+    visibility: hidden;
+}
+
+li:hover .wear i {
+    visibility: visible;
+    font-weight: bolder;
+}
+
+.sub-dropdown {
+    border-radius: 10px;
+    background-color: white;
+    width: 20vw;
+    left: 7.22cm;
+    top: -0.105%;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.sub-dropdown h4 {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.sub-dropdown li {
+    font-size: 14px;
+}
+
+.mens-top {
+    visibility: hidden;
+    position: absolute;
+
+}
+
+.top-wear:hover .mens-top {
+    visibility: visible;
+    transition: all 0.2s;
+}
+
+.mens-bottom {
+    position: absolute;
+    visibility: hidden;
+}
+
+.bottom-wear:hover .mens-bottom {
+    visibility: visible;
+}
+
+.w-ethnic {
+    position: absolute;
+    visibility: hidden;
+}
+
+.ethnic:hover .w-ethnic {
+    visibility: visible;
+}
+
+.footwear {
+    position: absolute;
+    visibility: hidden;
+}
+
+.men-footwear:hover .footwear {
+    visibility: visible;
+}
+
+.w-footwear {
+    position: absolute;
+    visibility: hidden;
+}
+
+.women-footwear:hover .w-footwear {
+    visibility: visible;
+}
+
+.w-Accessories {
+    position: absolute;
+    visibility: hidden;
+}
+.watches:hover .w-Accessories{
+     visibility: visible;
+}
+
+.w-western{
+    position: absolute;
+    visibility: hidden;
+}
+.western:hover .w-western{
+     visibility: visible;
+}
+.b-suitcases{
+     position: absolute;
+    visibility: hidden;
+}
+.bags:hover .b-suitcases{
+    visibility: visible;
+}
+
+.all-kids{
+     position: absolute;
+    visibility: hidden;
+}
+.kids:hover .all-kids{
+    visibility: visible;
+}
+
+.essen{
+     position: absolute;
+    visibility: hidden;
+}
+.essentials:hover .essen{
+    visibility: visible;
+}
+
+.all-winter{
+     position: absolute;
+    visibility: hidden;
+}
+.winter:hover .all-winter{
+    visibility: visible;
+}
