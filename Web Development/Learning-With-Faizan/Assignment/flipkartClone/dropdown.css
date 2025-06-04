@@ -8,7 +8,7 @@
 }
 
 .item {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     margin: 10px 10px;
@@ -41,6 +41,7 @@
     box-shadow: -2px 0 10px gray;
     cursor: pointer;
     visibility: hidden;
+    z-index: 1;
 }
 
 .item:hover .fa-dropdown {

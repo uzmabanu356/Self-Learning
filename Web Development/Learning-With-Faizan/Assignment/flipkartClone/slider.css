@@ -1,5 +1,56 @@
-.slider{
-    border: 1px solid firebrick;
-    height: 40vh;
+
+.slider {
+    /* border: 1px solid firebrick; */
+    background-color: white;
+    height: 39vh;
     margin: 19px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/480/80/image/f19eed910512bdfe.jpeg?q=20);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    animation: slide 9s infinite;
+
+}
+
+@keyframes slide {
+    30% {
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/480/80/image/f19eed910512bdfe.jpeg?q=20);
+    }
+
+    60% {
+
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/480/230/image/e0c7964600aa841a.jpg?q=20);
+    }
+
+    100% {
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/960/460/image/c2a31e443078d35b.jpg?q=60);
+    }
+
+}
+
+.slider-button {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button {
+    height: 100px;
+    width: 4%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-button {
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 0;
+}
+
+.right-button {
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0;
 }

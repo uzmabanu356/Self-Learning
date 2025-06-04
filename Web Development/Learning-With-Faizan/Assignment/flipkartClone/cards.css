@@ -1,0 +1,36 @@
+.cards-box {
+    border: 1px solid purple;
+    margin: 19px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    border: 1px solid palegreen;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.aside-box {
+    border: 1px solid peru;
+    width: 15%;
+}
+
+.item {
+    border: 1px solid saddlebrown;
+    width: 10%;
+}
+
+.item6 {
+    height: 100px;
+    width: 4%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 10%;
+}
