@@ -1,0 +1,14 @@
+.top-picks {
+    border: 1px solid green;
+    height: 90vh;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-box {
+    border: 1px solid red;
+    width: 31.30vw;
+    
+
+}

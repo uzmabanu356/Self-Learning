@@ -1,36 +1,101 @@
 .cards-box {
-    border: 1px solid purple;
+
     margin: 19px;
-    height: 50vh;
+    height: 55vh;
     display: flex;
     justify-content: space-between;
+
 }
 
 .cards {
-    border: 1px solid palegreen;
-    width: 84%;
+
+    width: 82%;
+    display: inline;
+    margin: 10px 10px;
+    background-color: white;
+}
+
+.pro-list {
+
+    height: 39vh;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-evenly;
 }
 
-.aside-box {
-    border: 1px solid peru;
-    width: 15%;
-}
-
-.item {
-    border: 1px solid saddlebrown;
-    width: 10%;
-}
-
-.item6 {
+.pro-button {
     height: 100px;
-    width: 4%;
-    background-color:white;
+    width: 5%;
+    border: 1px solid gainsboro;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px 0px 0px 10px;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+.price h4 {
+    margin: 10px 10px;
+    font-size: 25px;
+}
+
+.Product {
+
+    height: 39vh;
+    width: 20vw;
+
+}
+
+.img {
+    /* border: 1px solid green; */
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img img {
+    padding: 5px;
+    height: 100%;
+    width: 10vw;
+    transition: transform 0.3s ease;
+
+}
+
+.img img:hover {
+    transform: scale(1.05);
+}
+
+.description {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.heading {
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.aside-box {
+    /* border: 1px solid peru; */
+    width: 15%;
+    height: 52vh;
+    margin-top: 10px;
+}
+
+.aside-box {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/470/720/image/ce3cf81edb760559.jpg?q=20);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box {
+    background-color: white;
+    margin: 20px;
 }
