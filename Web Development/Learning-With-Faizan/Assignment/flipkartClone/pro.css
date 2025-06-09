@@ -1,5 +1,4 @@
 .top-picks {
-    border: 1px solid green;
     height: auto;
     margin: 10px 20px;
     display: flex;
@@ -7,7 +6,7 @@
 }
 
 .big-box {
-    /* border: 1px solid red; */
+
     width: 31.50vw;
     background-color: white;
 }
@@ -63,14 +62,38 @@
 }
 
 .b-img {
-    border: 1px solid rebeccapurple;
     height: 100%;
     overflow: hidden;
 }
 
 .b-img img {
-    height: 100%;
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
     margin-top: 0;
 
 
+}
+
+.top-stories {
+    /* border: 1px solid saddlebrown; */
+    height: 50vh;
+    width: 100vw;
+}
+
+.text h2 {
+    margin: 20px;
+    color: rgb(146, 144, 144);
+    font-size: 1.10pc;
+}
+
+.text h3 {
+    margin: 20px;
+    color: rgb(146, 144, 144);
+    font-size: 1pc;
+}
+
+.text p {
+    color: rgb(156, 152, 152);
+    margin: 20px;
 }
