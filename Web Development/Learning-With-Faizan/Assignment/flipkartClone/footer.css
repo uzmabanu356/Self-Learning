@@ -1,0 +1,41 @@
+.footer {
+    border: 1px solid green;
+    height: 55vh;
+}
+
+.ftr {
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 45px 20px;
+}
+
+.line {
+    border: 1px solid black;
+    width: 2px;
+    height: 200px;
+    margin: 30px 1px;
+}
+
+.ftr-con {
+    padding: 30px 1px;
+}
+
+.abt-con {
+    border-right: 1px solid #000;
+    margin: 10px 1px;
+    padding-right: 20px;
+    
+}
+
+.abt-con a {
+    display: block;
+    padding: 0.50px;
+}

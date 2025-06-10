@@ -76,24 +76,27 @@
 }
 
 .top-stories {
-    /* border: 1px solid saddlebrown; */
-    height: 50vh;
     width: 100vw;
 }
-
 .text h2 {
     margin: 20px;
-    color: rgb(146, 144, 144);
+   color: rgb(78, 75, 75);
     font-size: 1.10pc;
 }
 
+.text a{
+    text-decoration: none;
+    color: rgb(78, 75, 75);
+    font-size: 0.90pc;
+    
+}
 .text h3 {
     margin: 20px;
-    color: rgb(146, 144, 144);
+   color: rgb(78, 75, 75);
     font-size: 1pc;
 }
 
 .text p {
-    color: rgb(156, 152, 152);
+    color: rgb(78, 75, 75);
     margin: 20px;
 }
