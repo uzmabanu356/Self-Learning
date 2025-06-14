@@ -12,9 +12,12 @@ body {
 
 .headerContainer {
     /* border: 2px solid red; */
-    height: auto;
+    height: 10.25%;
     display: flex;
     background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .logo {
@@ -24,22 +27,22 @@ body {
     cursor: pointer;
 }
 
-img {
-    height: 30px;
-    margin-top: 5px;
+.logo img {
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .searchBar {
-    /* border: 2px solid green; */
-    margin: 10px;
+    margin: 15px 10px;
     margin-left: 20px;
-    width: 50%;
+    width: 40%;
     position: relative;
 }
 
 .searchBar input {
     width: 100%;
-    padding: 10px 10px 10px 35px;
+    padding: 10px 15px 15px 30px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -63,7 +66,7 @@ img {
 
 .login-cart {
     /* border: 2px solid darkcyan; */
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -74,7 +77,7 @@ abbr {
     text-decoration: none;
 }
 
-a {
+a{
     text-decoration: none;
     color: black;
 }

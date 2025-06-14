@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing Element</title>
+    <style>
+        h1 {
+            font-size: 100px;
+            color: maroon;
+            bor
+        }
+
+        /* input{
+            border: 1px solid #000;
+            display: block;
+            margin: 10px;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <!-- <h1 id="hd">Happy Birthday</h1> -->
+    <!-- <h1 class="hd">Happy Birthday</h1> -->
+    <!-- <h1>Happy Birthday</h1> -->
+    <!-- <h1 class="text">Happy Birthday</h1> -->
+    <!-- <h1 class="text">Happy Birthday</h1> -->
+
+
+    <form name="myform" id="login">
+        <input type="text" class="input" name="username" placeholder="name">
+        <input type="password" class="input" name="password" placeholder="password">
+        <input type="submit" name="submit">
+    </form>
+</body>
+
+<script>
+    // const heading = document.getElementById("hd");
+    // heading.style.color = "deeppink";
+
+    // const heading = document.getElementsByClassName("hd");
+    // heading[0].style.color ="deeppink";
+
+    // const heading = document.getElementsByTagName("h1");
+    // heading[0].style.color ="deeppink";
+
+
+    //  const heading = document.querySelector(".text");
+    // console.log(heading);
+    // heading.style.backgroundColor = "deeppink";
+
+    // const heading = document.querySelectorAll(".text");
+    // heading[1].style.backgroundColor = "deeppink";
+
+    const login = document.forms["myform"];
+    const name = document.forms["myform"]["username"];
+    const pass = document.forms["myform"]["password"];
+    const submit = document.forms["myform"]["submit"];
+    //  console.log(login);
+    name.style.display = "block";
+    name.style.borderRadius = "5px";
+    pass.style.display = "block";
+    pass.style.marginTop = "10px";
+    pass.style.borderRadius = "5px";
+    submit.style.marginTop = "10px";
+</script>
+
+</html>

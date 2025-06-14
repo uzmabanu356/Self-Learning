@@ -24,6 +24,8 @@
 
 .contentc {
     width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .option {
@@ -44,19 +46,65 @@
     color: white;
 }
 
-a:hover {
+.link a:hover {
     text-decoration: underline;
     transition: 0.5s;
 }
-.con-p{
+
+.con-p {
     color: white;
     margin-bottom: 20px;
 }
-.con-I i{
+
+.con-I i {
     color: white;
     font-size: 20px;
     padding: 10px;
 }
-.bottom-ftr{
-    border-top:1px solid gray ;
+
+.bottom-ftr {
+    border-top: 1px solid gray;
+    padding: 15px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btm {
+    padding: 5px;
+
+}
+
+.btm a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btm i {
+    color: yellow;
+    font-size: 10px;
+}
+
+.btm-copy {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px 10px;
+}
+
+.btm-copy p {
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+.btm-copy i {
+     color: white;
+    font-size: 10px;
+    padding-top: 1px;
+}
+.btm-img img{
+    width: 25pc;
 }
